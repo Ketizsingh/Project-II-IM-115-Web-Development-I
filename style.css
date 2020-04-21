@@ -1,0 +1,27 @@
+*,::before,::after
+{
+box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+.header-class
+{
+    box-shadow: 2px 1px 4px 1px #b3b3b3;
+    border-radius: 20px;
+    background-color: orangered;
+    clear: both;
+    display:flex;
+}
+
+.baseline
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lavender;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+}

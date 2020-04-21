@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Alliance Home Page</title>
+    <link href='style.css' rel='stylesheet'>
+    <script src='script.js'></script>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gurpreet Singh Ladhroia">
+    <meta name="author" content="Mohit Rawal">
+    <meta name="author" content="Nikhil Rawal">
+    <meta name="keywords" content="HTML,CSS, Javascript">
+    <meta name="description" content="Alliance Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- <div class='baseline'>
+        <div><p class='paragraph1'>Products</p></div>
+        <div><p class='paragraph1'>Company</p></div>
+        <div><p class='paragraph1'>Customers</p></div>
+    </div> -->
+    <header class='header-container'>
+        <div class='header-class'>
+            <img src='Images/teamwork.png' alt='Image not found' class='logo'>
+            <div class='company-name'>
+                <p>Alliance</p>
+            </div>
+            <div class='paragraph'>
+                <a href='#policy' style='text-decoration: none;'>
+                    <p>Our-Work</p>
+                </a>
+            </div>
+            <div class='paragraph' onmouseover="showhidden()" onmouseout="hidehidden()">
+                <p>Services</p>
+                <div class='hidden-item1'>
+                    <br>
+                    <li>Remote Work</li>
+                    <li>Collaboration</li>
+                    <li>Management</li>
+                    <li>Risk Analysis</li>
+                </div>
+            </div>
+            <div class='paragraph' onmouseover="viewdata()" onmouseout="disapperdata()">
+                <p>About-Us</p>
+                <div class='hidden-item3'>
+                    <br>
+                    <li>Moto/Aim</li>
+                    <li>Policies</li>
+                    <li>Work Ethics</li>
+                    <li>Careers</li>
+                </div>
+            </div>
+            <div class='paragraph' onmouseover="showdata()" onmouseout="hidedata()">
+                <p>Contact-Us</p>
+                <div class='hidden-item2'>
+                    <br>
+                    <li>Via Chat</li>
+                    <li>Via Mail</li>
+                    <li>Via Webinar</li>
+                    <li>Via Call</li>
+                </div>
+            </div>
+            <div class='paragraph'>
+                <a href='members.html' style='text-decoration: none;'>
+                    <p>Members</p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <content>
+        <br>
+        <br>
+        <h1 class='vision-heading'>Helps a group of people of different origins stay connected, Not matter how far they are.</h1>
+        <p class='vision-paragraph'>Alliance project management tool that helps developers of in-house & remote teams belonging to different/same origins improve collaboration,visibility, accountability and ultimately results.</p>
+        <div class='image-box'>
+            <div class='slider'>
+                <figure>
+                    <img src='Images/image1.jpeg' alt="Image not found">
+                    <img src='Images/image2.png' alt="Image not found">
+                    <img src='Images/image4.jpg' alt="Image not found">
+                    <img src='Images/image3.jpg' alt="Image not found">
+                    <img src='Images/image5.jpg' alt="Image not found">
+                </figure>
+            </div>
+        </div>
+        <div class='company-policies' id='policy'>
+            <div>
+                <h2>Deliver Faster Projects</h2>
+                <p>Project Management is about more than just getting the work done. It's about delivering impactful results for your business.</p>
+            </div>
+            <div>
+                <h2>Work together, Seamlessly</h2>
+                <p>Make it easy for everyone to see what projects they’re working on, communicate with their team, and plan what comes next — wherever they are.</p>
+            </div>
+            <div>
+                <h2>Automate projects workflows</h2>
+                <p>However you like to work, whichever project management methodology you prefer, Teamwork helps you to do it better.</p>
+            </div>
+        </div>
+        <div class='companies' style='background-color: lavender;'>
+            <div class='company-services'>
+                <div><img src='Images\facebook.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\instagram-sketched.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\youtube.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\twitter.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\amazon.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\hp.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\dell.png' class='comapny-services-image' alt='Image not Found'></div>
+                <div><img src='Images\microsoft.png' class='comapny-services-image' alt='Image not Found'></div>
+            </div>
+            <div>
+                <p class='text-data'>Our Valuable Customers</p>
+            </div>
+        </div>
+    </content>
+    <div class='footer-section'>
+        <div class='footer-item'>
+            <ul style="list-style-type:none;">Company
+                <li>About Alliance</li>
+                <li>Careers</li>
+                <li>Customers</li>
+                <li>Security</li>
+                <li>News</li>
+                <li>Brand</li>
+            </ul>
+        </div>
+        <div class='footer-item'>
+            <ul style="list-style-type:none;">Products
+                <li>Alliance</li>
+                <li>Alliance Desk</li>
+                <li>Alliance Chat</li>
+                <li>Alliance Spaces</li>
+                <li>Alliance CRM</li>
+                <li>View all products </li>
+            </ul>
+        </div>
+        <div class='footer-item'>
+            <ul style="list-style-type:none;">Resources
+                <li>Blogs</li>
+                <li>Webinars</li>
+                <li>EBooks</li>
+                <li>Guides</li>
+            </ul>
+        </div>
+        <div class='footer-item'>
+            <ul style="list-style-type:none; ">Support
+                <li>Support Center</li>
+                <li>Training</li>
+                <li>API</li>
+                <li>Integrations</li>
+                <li>Partners</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+</body>
+
+</html>
